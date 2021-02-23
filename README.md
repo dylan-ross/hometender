@@ -75,33 +75,20 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
-
+| --- | :---: |  :---: | :---: | :---: |
 | creating core html | H | 2hr | N/A | N/A |
-
 | basic CSS styling | H | 3hr | N/A | N/A |
-
 | psuedo code | M | 2hrs | N/A | N/A |
-
 | creating dynamic cocktail search form| H | 3hr | N/A | N/A |
-
 | append image results to the DOM | H | 2hr | N/A | N/A |
-
 | remove images so that only the 3 most recent are visible | M | 2hrs | N/A | N/A |
-
 | adding EventLisenters to images to reveal recipe | H | 3hrs | N/A | | N/A |
-
 | CSS styling of images | M | 3hrs | N/A | N/A |
-
 | media queries and responsive design| H | 3hrs| N/A | N/A |
-
 | creating dynamic ingredient search form | M | 3hrs | N/A | N/A |
-
 | appending search results to body | M | 2hrs | N/A | N/A |
-
 | linking images/recipe reveal to cocktail names | L | 2hrs | N/A | N/A |
-
 | additional CSS | L | 3hrs | N/A | N/A |
-
 | Total | H | 33hrs| N/A | N/A |
 
 ## Code Snippet
