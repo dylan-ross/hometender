@@ -42,8 +42,7 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 #### PostMVP  
 
 - add more CSS Styling
-- create more search parameters such as: glass type, cocktail category, number of ingredients
--  
+- create more search parameters such as: glass type, cocktail category, number of ingredients 
 
 ## Project Schedule
 
