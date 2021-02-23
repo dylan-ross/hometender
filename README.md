@@ -9,7 +9,7 @@ Search for a cocktail by name. Compare up to 3 cocktails at a time. Search resul
 ## API and Data Sample
 
 https://www.thecocktaildb.com/api.php
-
+```json
 "drinks": [
         {
             "idDrink": "11007",
@@ -35,7 +35,7 @@ https://www.thecocktaildb.com/api.php
             "strCreativeCommonsConfirmed": "Yes",
             "dateModified": "2015-08-18 14:42:59"
         },
-
+```
 ## Wireframes
 
 https://wireframe.cc/pro/pp/bfa2795e4417125
