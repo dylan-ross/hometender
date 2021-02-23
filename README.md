@@ -67,15 +67,17 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 | basic style divs with css| H | 3hr | N/A | N/A |
 
-| psuedo code | M | 1hrs | N/A | N/A |
+| psuedo code | M | 2hrs | N/A | N/A |
 
 | creating dynamic ingredient search form| H | 3hr | N/A | N/A |
 
-| append results to the DOM | H | 1hr | N/A | N/A |
+| append results to the DOM | H | 2hr | N/A | N/A |
 
 | creating dynamic cocktail name search form | H | 3hr | N/A | N/A |
 
-| appending results to the DOM | H | 1hrs | N/A | N/A |
+| appending results to the DOM | H | 2hrs | N/A | N/A |
+
+| remove images so that only the 3 most recent are visible | M | 2hrs | N/A | N/A |
 
 | adding EventLisenters to images to reveal recipe | H | 3hrs | N/A | | N/A |
 
@@ -91,7 +93,7 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 | additional CSS | L | 3hrs | N/A | N/A |
 
-| Total | H | 36hrs| N/A | N/A |
+| Total | H | 38hrs| N/A | N/A |
 
 ## Code Snippet
 
