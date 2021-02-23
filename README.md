@@ -5,8 +5,7 @@
 Hometender
 
 ## Project Description
-
-Search for cocktails by name or ingredient. Searching by ingredient will result in cocktail names of all cocktails with that specific ingredient . Searching by cocktail name and selecting cocktail name from ingredient search will result in cocktail image. Interacting with image will reveal recipe and additional information about cocktail. User will be able to view 3 cocktails at a time.  
+Search for a cocktail by name. Compare up to 3 cocktails at a time. Search results are images that when interacted with will reveal recipe and glassware. Additional features include a search by ingredient form that will result in a list of all cocktails with that ingredient. Cocktail names in that list will link to image/recipe reveal.
 ## API and Data Sample
 
 https://www.thecocktaildb.com/api.php
