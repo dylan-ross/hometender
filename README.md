@@ -9,7 +9,7 @@ Hometender
 Search for cocktails by name or ingredient. Searching by ingredient will result in a drop down list of cocktail names. Searching by cocktail name and selecting cocktail name from dropdown list will result in cocktail image. Interacting with image will reveal recipe and additional information about cocktail. User will be able to view 3 cocktails at a time.  
 ## API and Data Sample
 
-https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=drambuie
+https://www.thecocktaildb.com/api.php
 
 "drinks": [
         {
