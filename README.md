@@ -78,7 +78,7 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 | creating core html | H | 2hr | N/A | N/A |
 
-| basic style divs with css| H | 3hr | N/A | N/A |
+| basic CSS styling | H | 3hr | N/A | N/A |
 
 | psuedo code | M | 2hrs | N/A | N/A |
 
