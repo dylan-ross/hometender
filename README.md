@@ -50,9 +50,8 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 |  Day | Deliverable | Status
 |---|---| ---|
 |Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Feb 23| Project Approval | Incomplete
-|Feb 24| Core HTML and CSS / Link API / Pseudocode | Incomplete
-|Feb 24| Create Search Forms / Append Results to Webpage | Incomplete
+|Feb 23| Project Approval / Core HTML and CSS | Incomplete
+|Feb 24| Link API / Create Psuedocode / Search Forms / Append Results to Webpage | Incomplete
 |Feb 25| Link images to dropdown list and search results / addEventListener to images to reveal additional info  | Incomplete
 |Feb 26| Responsive Design / Complete MVP | Incomplete
 |March 1| Presentations | Incomplete
