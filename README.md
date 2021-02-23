@@ -65,21 +65,37 @@ https://lucid.app/lucidchart/e3237d1c-b7a6-455d-bfe1-da842462037d/edit?page=0_0#
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
+
 | creating core html | H | 1hr | N/A | N/A |
+
 | basic style divs with css| H | 2hr | N/A | N/A |
+
 | linking API | H | 1hr| N/A | N/A |
+
 | psuedo code | M | 2hrs | N/A | N/A |
+
 | creating search forms| H | 3hrs | N/A | N/A |
+
 | creating div for search results| H | 1hr | N/A | N/A|
+
 | appending results | H | 3hrs | N/A | N/A |
+
 | linking images to search results | H | 3hrs | N/A | N/A |
+
 | adding EventLisenters to images | H | 3hrs | N/A | | N/A |
+
 | CSS styling of images | M | 3hrs | N/A | N/A |
+
 | media queries and responsive design | M | 3hrs| N/A | N/A |
+
 | creating additional search forms | L | 3hrs | N/A | N/A |
+
 | appending additional search results to independent cocktail name dropdown lists | L | 3hrs | N/A | N/A |
+
 | link images to addtional lists | M | 1hr | N/A | N/A |
+
 | beautiful CSS | L | 3hrs | N/A | N/A |
+
 | Total | H | 38hrs| N/A | N/A |
 
 ## Code Snippet
