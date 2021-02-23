@@ -27,7 +27,7 @@ https://www.thecocktaildb.com/api.php
 
 ## Wireframes
 
-https://wireframe.cc/pro/pp/bfa2795e4417125
+https://lucid.app/publicSegments/view/5f68a0ee-32aa-435b-b194-865c8e1304d8
 
 ### MVP/PostMVP
 
