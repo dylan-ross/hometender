@@ -64,15 +64,15 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 
-| creating core html | H | 1hr | N/A | N/A |
+| creating core html | H | 2hr | N/A | N/A |
 
-| basic style divs with css| H | 2hr | N/A | N/A |
+| basic style divs with css| H | 3hr | N/A | N/A |
 
-| linking API | H | 1hr| N/A | N/A |
+| linking API | H | 2hr| N/A | N/A |
 
-| psuedo code | M | 2hrs | N/A | N/A |
+| psuedo code | M | 1hrs | N/A | N/A |
 
-| creating search forms| H | 3hrs | N/A | N/A |
+| creating search forms| H | 2hrs | N/A | N/A |
 
 | creating div for search results| H | 1hr | N/A | N/A|
 
@@ -84,7 +84,7 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 | CSS styling of images | M | 3hrs | N/A | N/A |
 
-| media queries and responsive design | M | 3hrs| N/A | N/A |
+| media queries and responsive design| H | 3hrs| N/A | N/A |
 
 | creating additional search forms | L | 3hrs | N/A | N/A |
 
@@ -92,9 +92,9 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 | link images to addtional lists | M | 1hr | N/A | N/A |
 
-| beautiful CSS | L | 3hrs | N/A | N/A |
+| additional CSS | L | 3hrs | N/A | N/A |
 
-| Total | H | 38hrs| N/A | N/A |
+| Total | H | 36hrs| N/A | N/A |
 
 ## Code Snippet
 
