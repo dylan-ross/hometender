@@ -27,14 +27,13 @@ https://www.thecocktaildb.com/api.php
 
 ## Wireframes
 
-https://wireframe.cc/HeHVAW
+https://wireframe.cc/pro/pp/bfa2795e4417125
 
 ### MVP/PostMVP
 
 
 #### MVP 
-
-- Use Axios to make a request to an API, and append search results to DOM 
+- create two search forms: ingredient search and cocktail name search
 - ingredient search results in dropdown list populated with cocktail names
 - cocktail name search, and selected cocktail name from dropdown list results in images
 - addEventListener to images to reveal recipes and glassware types  
