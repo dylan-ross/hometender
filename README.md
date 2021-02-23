@@ -60,6 +60,7 @@ https://lucid.app/documents/view/e3237d1c-b7a6-455d-bfe1-da842462037d
 ## Priority Matrix
 
 https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image.pdf
+
 https://lucid.app/lucidchart/e3237d1c-b7a6-455d-bfe1-da842462037d/edit?page=0_0#
 
 ## Timeframes
