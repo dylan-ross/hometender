@@ -102,7 +102,7 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 | additional CSS | L | 3hrs | N/A | N/A |
 
-| Total | H | 34hrs| N/A | N/A |
+| Total | H | 33hrs| N/A | N/A |
 
 ## Code Snippet
 
