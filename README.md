@@ -12,17 +12,29 @@ https://www.thecocktaildb.com/api.php
 
 "drinks": [
         {
-            "strDrink": "Loch Lomond",
-            "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/rpvtpr1468923881.jpg",
-            "idDrink": "11658"
+            "idDrink": "11007",
+            "strDrink": "Margarita",
+            "strDrinkAlternate": null,
+            "strTags": "IBA,ContemporaryClassic",
+            "strVideo": null,
+            "strCategory": "Ordinary Drink",
+            "strIBA": "Contemporary Classics",
+            "strAlcoholic": "Alcoholic",
+            "strGlass": "Cocktail glass",
+            "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
+            "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+            "strIngredient1": "Tequila",
+            "strIngredient2": "Triple sec",
+            "strIngredient3": "Lime juice",
+            "strIngredient4": "Salt",
+            "strMeasure1": "1 1/2 oz ",
+            "strMeasure2": "1/2 oz ",
+            "strMeasure3": "1 oz ",
+            "strImageSource": "https://commons.wikimedia.org/wiki/File:Klassiche_Margarita.jpg",
+            "strImageAttribution": "Cocktailmarler",
+            "strCreativeCommonsConfirmed": "Yes",
+            "dateModified": "2015-08-18 14:42:59"
         },
-        {
-            "strDrink": "Rusty Nail",
-            "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg",
-            "idDrink": "12101"
-        }
-    ]
-}
 
 ## Wireframes
 
