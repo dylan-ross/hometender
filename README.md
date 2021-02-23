@@ -33,9 +33,9 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 
 
 #### MVP 
-- create two search forms: ingredient search and cocktail name search
-- ingredient search results in all cocktails with that ingredient
-- cocktail name search, and selected cocktail name from ingredient search will results in images 
+- create two dynamic search forms: ingredient search and cocktail name search
+- ingredient search will result in all cocktails with that ingredient
+- cocktail name search, and selected cocktail name from ingredient search will results in images of cocktail 
 - addEventListener to images to reveal recipes and glassware types  
 - Use flex-box to create responsive design 
 
