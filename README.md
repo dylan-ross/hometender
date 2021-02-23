@@ -33,14 +33,16 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 
 
 #### MVP 
-- create two dynamic search forms: ingredient search and cocktail name search
-- ingredient search will result in all cocktails with that ingredient
-- cocktail name search, and selected cocktail name from ingredient search will results in images of cocktail 
-- addEventListener to images to reveal recipes and glassware types  
+- Cocktail search form
+- Search results will be image of cocktail 
+- addEventListener to images to reveal recipes and glassware types
+- max three cocktail images on screen at one time  
 - Use flex-box to create responsive design 
 
 #### PostMVP  
 
+- add an ingredient search form that results in a list of cocktails with that ingredient
+- link image/recipe reveal to cocktail name on list
 - add more CSS Styling
 - create more search parameters such as: glass type, cocktail category, number of ingredients 
 
@@ -50,9 +52,9 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 |---|---| ---|
 |Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
 |Feb 23| Project Approval / Core HTML and CSS | Incomplete
-|Feb 24| Create Psuedocode / Create Dynamic Search Forms via API | Incomplete
-|Feb 25| Appending images to the DOM / addEventListener to images to reveal additional info  | Incomplete
-|Feb 26| Responsive Design / Complete MVP | Incomplete
+|Feb 24| Create Psuedocode / Create Dynamic Cocktail Search Form / Append Resulting Images to the DOM / Remove extra images so only 3 are visible at a time | Incomplete
+|Feb 25| addEventListener to images to reveal additional info / CSS Styling and Responsive Design | Incomplete
+|Feb 26| Create Dynamic Ingredient Search Form / Append Results to DOM / link image/recipe reveal to cocktail names   | Incomplete
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
@@ -69,13 +71,9 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 | psuedo code | M | 2hrs | N/A | N/A |
 
-| creating dynamic ingredient search form| H | 3hr | N/A | N/A |
+| creating dynamic cocktail search form| H | 3hr | N/A | N/A |
 
-| append results to the DOM | H | 2hr | N/A | N/A |
-
-| creating dynamic cocktail name search form | H | 3hr | N/A | N/A |
-
-| appending results to the DOM | H | 2hrs | N/A | N/A |
+| append image results to the DOM | H | 2hr | N/A | N/A |
 
 | remove images so that only the 3 most recent are visible | M | 2hrs | N/A | N/A |
 
@@ -85,15 +83,15 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 | media queries and responsive design| H | 3hrs| N/A | N/A |
 
-| creating additional search forms | L | 3hrs | N/A | N/A |
+| creating dynamic ingredient search form | M | 3hrs | N/A | N/A |
 
-| appending additional search results to independent cocktail name dropdown lists | L | 3hrs | N/A | N/A |
+| appending search results to body | M | 2hrs | N/A | N/A |
 
-| link images to addtional lists | M | 1hr | N/A | N/A |
+| linking images/recipe reveal to cocktail names | L | 2hrs | N/A | N/A |
 
 | additional CSS | L | 3hrs | N/A | N/A |
 
-| Total | H | 38hrs| N/A | N/A |
+| Total | H | 34hrs| N/A | N/A |
 
 ## Code Snippet
 
