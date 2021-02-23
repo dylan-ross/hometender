@@ -32,8 +32,8 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 
 
 #### MVP 
-- Cocktail search form
-- Search results will be image of cocktail 
+- Cocktail search by name 
+- Search results will be image, and hidden recipe and glassware type of cocktail 
 - addEventListener to images to reveal recipes and glassware types
 - max three cocktail images on screen at one time  
 - Use flex-box to create responsive design 
