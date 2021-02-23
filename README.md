@@ -43,7 +43,7 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 
 - add more CSS Styling
 - create more search parameters such as: glass type, cocktail category, number of ingredients
-- addEventListener reveals more info 
+-  
 
 ## Project Schedule
 
