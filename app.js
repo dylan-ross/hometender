@@ -21,17 +21,17 @@ async function getData(cocktail) {
   }
 } 
 
-getData('old fashion')
+getData()
 
 
 
 // // create tags and set src append to DOM
 
 function showCocktailImage(data) {
-  const imageContainer = document.querySelector('#result-img')
+  const imageContainer = document.querySelector('#front')
   console.log(imageContainer)
   const cocktailImage = `
-    <h5 class="name">${data.strDrink}</h5?
+    <h5 class="name">${data.strDrink}</h5>
     <img src="${data.strImageSource}" alt="cocktail" class="image"/>
 `
   console.log(cocktailImage)
@@ -55,8 +55,19 @@ function showCocktailData(data) {
 }
 
 
+// addEventListener to take in search input
+
+const form = document.querySelector('form')
+form.addEventListener('submit', (e) => {
+  e.preventDefault()
+  const inputValue = document.querySelector('#cts-name').value
+  // console.log(inputValue)
+  getData(inputValue)
+  document.querySelector('#cts-name').value = ""
+})
 
 
+console.log(form)
 
 
 
