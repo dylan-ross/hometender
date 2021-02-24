@@ -61,7 +61,7 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Feb 23| Project Approval / Core HTML and CSS | Incomplete
 |Feb 24| Create Psuedocode / Create Dynamic Cocktail Search Form / Append Resulting Images to the DOM / Remove extra images so only 3 are visible at a time | Incomplete
 |Feb 25| addEventListener to images to reveal additional info / CSS Styling and Responsive Design | Incomplete
