@@ -5,14 +5,6 @@ body {
   background-size: cover;
 }
 
-#logo {
-  background-color: blanchedalmond;
-  width: 90%;
-  height: 300px;
-  margin: 100px auto;
-  border-radius: 100px;
-}
-
 div, h1, p {
   border: 2px solid black;
 }
@@ -20,3 +12,32 @@ div, h1, p {
 .home, .search {
   display: flexbox;
 }
+
+#logo {
+  width: 90%;
+  height: 300px;
+  margin: 100px auto;
+  border-image-source: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngarts.com%2Ffiles%2F1%2FGolden-Frame-PNG-Photo.png&f=1&nofb=1);
+  border-image-slice: 15%;
+  border-image-width: 50px;
+  border-image-outset: 0;
+  background-image: linear-gradient( rgb(187, 215, 231), rgb(213, 221, 223), rgb(187, 215, 231));
+}
+
+h1, #est {
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+#est{
+  font-family: Ballet;
+}
+
+
+
+
+
+
+
