@@ -62,12 +62,13 @@ form.addEventListener('submit', (e) => {
   e.preventDefault()
   const inputValue = document.querySelector('#cts-name').value
   // console.log(inputValue)
+  removeFront()
   getData(inputValue)
   document.querySelector('#cts-name').value = ""
 })
 
 
-console.log(form)
+// console.log(form)
 
 
 
@@ -76,7 +77,15 @@ console.log(form)
 
 // remove previous cocktails
 
+function removeFront() {
+  const frontContainer = document.querySelector('#front')
+  // console.log(cocktailContainer)
+  while (('.name') > 3) {
+    frontContainer.removeChild(frontContainer.firstChild)
+  }
+}
 
+// removeFront()
 
 
 
