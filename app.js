@@ -9,30 +9,35 @@
 
 async function getData(cocktail) {
   const url = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${cocktail}`
+  const headers = {
+    headers: {
+      'Access-Control-Allow-Origin': '*'
+    }
+  }
   try {
-    let response = await axios.get(url)
-    let data = response.data.drinks[0]
-    console.log(data)
+    let response = await axios.get(url, headers)
+    let data = response.data
     showCocktailImage(data)
-    showCocktailData(data)
+    // showCocktailData(data)
     return response
   } catch (err) {
     console.error(err)
   }
 } 
 
-getData()
+getData("old fashion")
 
 
 
 // // create tags and set src append to DOM
 
 function showCocktailImage(data) {
+  console.log(data.drinks[0].strImageSource)
   const imageContainer = document.querySelector('#front')
-  console.log(imageContainer)
+  // console.log(imageContainer)
   const cocktailImage = `
     <h5 class="name">${data.strDrink}</h5>
-    <img src="${data.strImageSource}" alt="cocktail" class="image"/>
+    <img src= "https://cors-anywhere.herokuapp.com/${data.drinks[0].strImageSourcestrImageSource}" alt="cocktail" class="image"/>
 `
   console.log(cocktailImage)
   imageContainer.insertAdjacentHTML('beforeend', cocktailImage)
