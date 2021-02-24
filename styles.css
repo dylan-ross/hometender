@@ -12,7 +12,7 @@ body {
   background-size: cover;
 }
 
-div, h1, p {
+div, h1, h2, p {
   border: 2px solid black;
 }
 
@@ -31,23 +31,33 @@ div, h1, p {
   background-image: linear-gradient( rgb(187, 215, 231), rgb(213, 221, 223), rgb(187, 215, 231));
 }
 
-h1, #est {
+h1, h2, #est {
   margin-right: 1em;
   margin-left: 1em;
   margin-top: 1.5em;
   text-align: center;
-  font-family: c338pmj;
 }
 
 #est{
   font-family: Ballet;
+  font-size: 2em;
+  margin-top: 5px;
+}
+
+h1, h2 {
+  font-family: saloon-title2;
+  color: rgb(59, 25, 20);
+  font-size: 3em;
 }
 
 h1 {
-  font-family: saloon-title2;
-  color: rgb(59, 25, 20);
-  
-  
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0;
+  margin: 5px;
 }
 
 
