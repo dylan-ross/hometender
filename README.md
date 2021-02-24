@@ -61,7 +61,7 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Feb 23| Project Approval / Core HTML and CSS | Incomplete
 |Feb 24| Create Psuedocode / Create Dynamic Cocktail Search Form / Append Resulting Images to the DOM / Remove extra images so only 3 are visible at a time | Incomplete
 |Feb 25| addEventListener to images to reveal additional info / CSS Styling and Responsive Design | Incomplete
@@ -76,8 +76,8 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| creating core html | H | 2hr | N/A | N/A |
-| basic CSS styling | H | 3hr | N/A | N/A |
+| creating core html | H | 2hrs | 2hrs | 2hrs |
+| basic CSS styling | H | 3hr | 3hrs | N/A |
 | psuedo code | M | 2hrs | N/A | N/A |
 | creating dynamic cocktail search form| H | 3hr | N/A | N/A |
 | append image results to the DOM | H | 2hr | N/A | N/A |
