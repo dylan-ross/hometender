@@ -22,19 +22,20 @@ div, h1, h2, p {
 }
 
 .home, .search {
-  display: flexbox;
+  display: flex;
   margin: 0 10px;
 }
 
 #logo {
   width: 90%;
   height: 300px;
-  margin: 100px auto;
   border-image-source: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngarts.com%2Ffiles%2F1%2FGolden-Frame-PNG-Photo.png&f=1&nofb=1);
   border-image-slice: 15%;
   border-image-width: 50px;
-  border-image-outset: 0;
   background-image: linear-gradient( rgb(187, 215, 231), rgb(213, 221, 223), rgb(187, 215, 231));
+  font-family: saloon-title2;
+  color: rgb(59, 25, 20);
+  font-size: 3em;
 }
 
 h1, h2, #est {
@@ -50,21 +51,6 @@ h1, h2, #est {
   margin-top: 5px;
 }
 
-h1, h2 {
-  font-family: saloon-title2;
-  color: rgb(59, 25, 20);
-  font-size: 3em;
-}
-
-h1 {
-  margin-top: 50px;
-  margin-bottom: 10px;
-}
-
-h2 {
-  margin-top: 0;
-  margin: 5px;
-}
 
 #about {
   font-family: about-font;
@@ -73,7 +59,7 @@ h2 {
 }
 
 .menu {
-  display: flexbox;
+  display: flex;
   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.vectorstock.com%2Fi%2F1000x1000%2F52%2F23%2Fblank-menu-on-blackboard-vector-21645223.jpg&f=1&nofb=1);
   background-size: cover;
   border-radius: 40px;
@@ -81,7 +67,44 @@ h2 {
   height: fit-content;
 }
 
+#search-results {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  perspective: 1000px;
+}
 
+#inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+#search-results:hover #inner {
+  transform: rotateY(180deg);
+}
+
+#front, #back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+#front {
+  background-color: black;
+  color: black;
+}
+
+#back {
+  background-color: goldenrod;
+  color: black;
+  transform: rotateY(180deg);
+}
 
 
 
