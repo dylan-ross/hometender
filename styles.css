@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
-@font-face {
+/* @font-face {
   font-family: saloon-title1;
   src: url("/Users/dylanross/generalAssembly/sei/topaz/unit_1/project1/hometender/Jfringmaster-jVPl.ttf");
 }
@@ -10,12 +10,23 @@
 @font-face {
   font-family: about-font;
   src: url("/Users/dylanross/Downloads/kg-second-chances-font/KgSecondChancesSketch-KpAp.ttf");
+} */
+
+* {
+  box-sizing: border-box;
 }
 
 body {
-  display: flex;
+  flex-wrap: nowrap;
   background-image: url(https://images.unsplash.com/photo-1582819509237-d5b75f20ff7a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80);
   background-size: cover;
+}
+
+main {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 div, h1, h2, p {
@@ -25,14 +36,16 @@ div, h1, h2, p {
 
 #logo {
   width: 90%;
-  height: 300px;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  /* border-image-source: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.polyurethanesupplierschina.com%2Fupfile%2Fproduct%2FPolyurethane-framing-supplies-8x12-frame-4x6-picture-frames-photo-frame-maker-custom-frame_2.jpg&f=1&nofb=1); */
   border-image-source: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngarts.com%2Ffiles%2F1%2FGolden-Frame-PNG-Photo.png&f=1&nofb=1);
   border-image-slice: 15%;
   border-image-width: 50px;
   background-image: linear-gradient( rgb(187, 215, 231), rgb(213, 221, 223), rgb(187, 215, 231));
   font-family: saloon-title2;
   color: rgb(59, 25, 20);
-  font-size: 3em;
 }
 
 h1, h2, #est {
@@ -49,18 +62,34 @@ h1, h2, #est {
 }
 
 
+
+
+.menu {
+  width: 70%;
+  flex: 1 1 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fchalkboard-blackboard-texture-with-copy-space-blank-picture-id1020105066%3Fk%3D6%26m%3D1020105066%26s%3D170667a%26w%3D0%26h%3Dc2z1RyiKEbfu4pRJinuTgYsDTDkR7vJdZ6Dm1IRtruQ%3D&f=1&nofb=1);
+  /* background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.vectorstock.com%2Fi%2F1000x1000%2F52%2F23%2Fblank-menu-on-blackboard-vector-21645223.jpg&f=1&nofb=1); */
+  background-size: cover;
+  border-radius: 40px;
+  height: fit-content;
+  block-size: fit-content;
+}
+
 #about {
   font-family: about-font;
   color: white;
   padding-bottom: 20px;
 }
 
-.menu {
-  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.vectorstock.com%2Fi%2F1000x1000%2F52%2F23%2Fblank-menu-on-blackboard-vector-21645223.jpg&f=1&nofb=1);
-  background-size: cover;
-  border-radius: 40px;
-  margin: 0 50px;
-  height: fit-content;
+#search-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #search-results {
@@ -102,6 +131,9 @@ h1, h2, #est {
   transform: rotateY(180deg);
 }
 
+.image {
+  width: 100%;
+}
 
 
 
