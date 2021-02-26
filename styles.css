@@ -92,7 +92,7 @@ h1, h2, #est {
   align-items: center;
 }
 
-#card {
+.card {
   background-color: transparent;
   width: 300px;
   height: 200px;
@@ -100,7 +100,7 @@ h1, h2, #est {
   perspective: 1000px;
 }
 
-#inner {
+.inner-card {
   position: relative;
   width: 100%;
   height: 100%;
@@ -109,23 +109,23 @@ h1, h2, #est {
   transform-style: preserve-3d;
 }
 
-#card:hover #inner {
+.card:hover .inner-card {
   transform: rotateY(180deg);
 }
 
-#front, #back {
+.front-card, .back-card {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
 
-#front {
+.front-card {
   background-color: black;
   color: black;
 }
 
-#back {
+.back-card {
   background-color: goldenrod;
   color: black;
   transform: rotateY(180deg);
