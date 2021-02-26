@@ -92,7 +92,7 @@ h1, h2, #est {
   align-items: center;
 }
 
-#search-results {
+#card {
   background-color: transparent;
   width: 300px;
   height: 200px;
@@ -109,7 +109,7 @@ h1, h2, #est {
   transform-style: preserve-3d;
 }
 
-#search-results:hover #inner {
+#card:hover #inner {
   transform: rotateY(180deg);
 }
 
