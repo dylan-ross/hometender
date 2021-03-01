@@ -62,11 +62,11 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 |  Day | Deliverable | Status
 |---|---| ---|
 |Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Feb 23| Project Approval / Core HTML and CSS | Incomplete
-|Feb 24| Create Psuedocode / Create Dynamic Cocktail Search Form / Append Resulting Images to the DOM / Remove extra images so only 3 are visible at a time | Incomplete
-|Feb 25| addEventListener to images to reveal additional info / CSS Styling and Responsive Design | Incomplete
-|Feb 26| Create Dynamic Ingredient Search Form / Append Results to DOM / link image/recipe reveal to cocktail names   | Incomplete
-|March 1| Presentations | Incomplete
+|Feb 23| Project Approval / Core HTML and CSS | Complete
+|Feb 24| Create Psuedocode / Create Dynamic Cocktail Search Form / Append Resulting Images to the DOM / Remove extra images so only 3 are visible at a time | Complete
+|Feb 25| addEventListener to images to reveal additional info / CSS Styling and Responsive Design | Complete
+|Feb 26| Create Dynamic Ingredient Search Form / Append Results to DOM / link image/recipe reveal to cocktail names   | Complete
+|March 1| Presentations | Complete
 
 ## Priority Matrix
 
@@ -77,20 +77,22 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | creating core html | H | 2hrs | 2hrs | 2hrs |
-| basic CSS styling | H | 3hr | 3hrs | N/A |
-| psuedo code | M | 2hrs | N/A | N/A |
-| creating dynamic cocktail search form| H | 3hr | N/A | N/A |
-| append image results to the DOM | H | 2hr | N/A | N/A |
-| remove images so that only the 3 most recent are visible | M | 2hrs | N/A | N/A |
-| adding EventLisenters to images to reveal recipe | H | 3hrs | N/A | | N/A |
-| CSS styling of images | M | 3hrs | N/A | N/A |
-| media queries and responsive design| H | 3hrs| N/A | N/A |
+| basic CSS styling | H | 3hrs | 3hrs | 3hrs |
+| psuedo code | M | 2hrs | 2hrs | 2hrs |
+| creating dynamic cocktail search form| H | 4hr | 4hrs | 4hrs |
+| append image results to the DOM | H | 2hr | 4hr | 4hrs |
+| remove images so that only the 3 most recent are visible | M | 2hrs | 1hr | 1hr |
+| adding EventLisenters to images to reveal recipe | H | 3hrs | 1hr | 1hr |
+| CSS styling of images | M | 3hrs | 3hrs | 3hrs |
+| media queries and responsive design| H | 3hrs| 12hrs | 12hrs |
 | creating dynamic ingredient search form | M | 3hrs | N/A | N/A |
 | appending search results to body | M | 2hrs | N/A | N/A |
 | linking images/recipe reveal to cocktail names | L | 2hrs | N/A | N/A |
 | additional CSS | L | 3hrs | N/A | N/A |
-| Total | H | 33hrs| N/A | N/A |
+| Total | H | 33hrs| 32hrs | 32hrs |
 
 ## Code Snippet
+
+
 
 ## Change Log
