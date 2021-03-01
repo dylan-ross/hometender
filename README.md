@@ -82,7 +82,7 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 | creating dynamic cocktail search form| H | 4hr | 4hrs | 4hrs |
 | append image results to the DOM | H | 2hr | 4hr | 4hrs |
 | remove images so that only the 3 most recent are visible | M | 2hrs | 1hr | 1hr |
-| adding EventLisenters to images to reveal recipe | H | 3hrs | 1hr | | 1hr |
+| adding EventLisenters to images to reveal recipe | H | 3hrs | 1hr | 1hr |
 | CSS styling of images | M | 3hrs | 3hrs | 3hrs |
 | media queries and responsive design| H | 3hrs| 12hrs | 12hrs |
 | creating dynamic ingredient search form | M | 3hrs | N/A | N/A |
