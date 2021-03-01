@@ -78,6 +78,7 @@ h1 {
 }
 
 .search {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,14 +99,17 @@ h1 {
 
 h3 {
   position: relative;
-  top: 90%;
-  font-size: 5vw;
+  font-size: 10vw;
 }
 
 h5 {
   text-align: center;
   font-family: Rouge Script;
 }
+
+/* #search-bars {
+
+} */
 
 .inner-card {
   position: relative;

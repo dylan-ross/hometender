@@ -48,28 +48,40 @@ function cocktailCard(data) {
   <p class="back instruction">${data.drinks[0].strInstructions}</p>
   <p class="back glassware">${data.drinks[0].strGlass}</p>
   `
+  
   card.innerHTML = cocktailName
-  frontCard.innerHTML = cocktailImage
-  backCard.innerHTML = cocktailData
+  frontCard.insertAdjacentHTML('beforeend', cocktailImage)
+  backCard.insertAdjacentHTML('beforeend', cocktailData)
   card.appendChild(innerCard)
   innerCard.appendChild(frontCard)
   innerCard.append(backCard)
   cardContainer.appendChild(card)
-  const emptyValue = document.querySelectorAll('.back')
-  console.log(emptyValue)
-  emptyValue.forEach(function () {
-    if (emptyValue.innerText == 'undefined undefined') {
-      emptyValue.remove()
-    }
-  })
+
+
+
+  // const emptyValue = document.querySelectorAll('div > p')
+  // emptyValue.forEach(item => {
+  //   const backCard = document.querySelector('.back-card')
+  //   console.log(backCard)
+  //   while (backCard.length > 0) {
+  //     if (item.innerText.includes('undefined')) {
+  //       backCard.removeChild(backCard.lastElementChild)
+  //       }
+  //     }
+  //   })
 }
 
 
-// const emptyValue = document.querySelectorAll('p')
-// emptyValue.forEach((value) => {
-//   if (emptyValue.textContent === 'undefined undefined') {
-//     emptyValue.remove()
-//   }
+
+
+
+// const emptyValue = document.querySelectorAll('.back ing-msr')
+// console.log(emptyValue)
+// emptyValue.forEach((el) => {
+//   console.log(el)
+//   // if (emptyValue.textContent === 'undefined undefined') {
+//   //   emptyValue.remove()
+//   // }
 // })
 // console.log(emptyValue)
 // if (emptyValue.textContent === 'undefined undefined') {
