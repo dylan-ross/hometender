@@ -1,8 +1,3 @@
-// Psuedo code
-// add API endpoints
-// console.log("lets get drunk")
-//get cocktail Data
-
 async function getCocktailData(cocktail) {
   const cocktailUrl = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${cocktail}`
   try {
@@ -21,16 +16,6 @@ async function getCocktailData(cocktail) {
     console.error(err)
   }
 } 
-getCocktailData('sazerac')
-// async function getCocktailList(ingredient) {
-//   const ingredientUrl = `https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=>${ingredient}`
-//   try {
-//     let ingResponse = await axios.get(ingredientUrl)
-//     let ingData = ingResponse.
-//   } catch (err) {
-//     console.error(err)
-//   }
-// }
 
 function cocktailCard(data) {
   const cardContainer = document.querySelector('.results')
@@ -63,25 +48,41 @@ function cocktailCard(data) {
   <p class="back instruction">${data.drinks[0].strInstructions}</p>
   <p class="back glassware">${data.drinks[0].strGlass}</p>
   `
-
+  card.innerHTML = cocktailName
   frontCard.innerHTML = cocktailImage
   backCard.innerHTML = cocktailData
-
-
-  // if (cocktailData.innerHTML !== `<p class="back ing-msr">null null</p>`) {
-  //   backCard.innerHTML = cocktailData
-  //   // document.querySelector('.back ing-msr').remove()
-  // } 
-  
   card.appendChild(innerCard)
   innerCard.appendChild(frontCard)
   innerCard.append(backCard)
   cardContainer.appendChild(card)
-  // if (document.querySelector("p").innerText == ('undefined undefined') {
-  //   document.querySelector("p").remove()
-  // }
+  const emptyValue = document.querySelectorAll('.back')
+  console.log(emptyValue)
+  emptyValue.forEach(function () {
+    if (emptyValue.innerText == 'undefined undefined') {
+      emptyValue.remove()
+    }
+  })
 }
 
+
+// const emptyValue = document.querySelectorAll('p')
+// emptyValue.forEach((value) => {
+//   if (emptyValue.textContent === 'undefined undefined') {
+//     emptyValue.remove()
+//   }
+// })
+// console.log(emptyValue)
+// if (emptyValue.textContent === 'undefined undefined') {
+//   emptyValue.remove()
+// }
+
+// const ducks = document.querySelectorAll("div")
+//   ducks.forEach((duck) => {
+//     duck.addEventListener("click", shot)
+//   })
+
+
+  
 const search = document.querySelector('form')
 search.addEventListener('submit', (e) => {
   e.preventDefault()
@@ -99,19 +100,7 @@ function removeCard() {
 }
 
 
-// request cocktails by ingredient
-
-
-
-
-
-// create tag for cocktails set src append to DOM
-
-
-
-
-// link image/recipe reveal element to cocktail names
-
+// citing https://www.itsolutionstuff.com/post/how-to-remove-empty-and-null-values-from-json-object-in-jqueryexample.html
 
 
 
