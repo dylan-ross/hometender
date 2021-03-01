@@ -62,21 +62,7 @@ function cocktailCard(data) {
   innerCard.append(backCard)
   cardContainer.appendChild(card)
 
-  // removing undefined strings
 
-  const cardBacks = document.querySelector('.back-card')
-  console.log('is cardBack', cardBacks)
-  console.log('is child of cardBack', cardBacks.children)
-  const cardBack = cardBacks.children
-  console.log(cardBack[1])
-
-  for (let i = 0; i < cardBack.length; i++) {
-    console.log(cardBack[i])
-    if (cardBack[i].innerHTML.includes('undefined undefined')) {
-      cardBack[i].remove()
-    }
-  }
-}
   // addEventListener to take in search input value 
 const search = document.querySelector('form')
 search.addEventListener('submit', (e) => {
@@ -96,6 +82,9 @@ function removeCard() {
 }
 
 
+  
+  
+  
 // citing https://www.itsolutionstuff.com/post/how-to-remove-empty-and-null-values-from-json-object-in-jqueryexample.html
 
 
