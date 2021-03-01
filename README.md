@@ -62,11 +62,11 @@ https://wireframe.cc/pro/pp/bfa2795e4417125
 |  Day | Deliverable | Status
 |---|---| ---|
 |Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Feb 23| Project Approval / Core HTML and CSS | Incomplete
-|Feb 24| Create Psuedocode / Create Dynamic Cocktail Search Form / Append Resulting Images to the DOM / Remove extra images so only 3 are visible at a time | Incomplete
-|Feb 25| addEventListener to images to reveal additional info / CSS Styling and Responsive Design | Incomplete
-|Feb 26| Create Dynamic Ingredient Search Form / Append Results to DOM / link image/recipe reveal to cocktail names   | Incomplete
-|March 1| Presentations | Incomplete
+|Feb 23| Project Approval / Core HTML and CSS | Complete
+|Feb 24| Create Psuedocode / Create Dynamic Cocktail Search Form / Append Resulting Images to the DOM / Remove extra images so only 3 are visible at a time | Complete
+|Feb 25| addEventListener to images to reveal additional info / CSS Styling and Responsive Design | Complete
+|Feb 26| Create Dynamic Ingredient Search Form / Append Results to DOM / link image/recipe reveal to cocktail names   | Complete
+|March 1| Presentations | Complete
 
 ## Priority Matrix
 
@@ -92,5 +92,7 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 | Total | H | 33hrs| 32hrs | 32hrs |
 
 ## Code Snippet
+
+
 
 ## Change Log
