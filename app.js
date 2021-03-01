@@ -17,16 +17,21 @@ async function getCocktailData(cocktail) {
   }
 } 
 
+
+
 function cocktailCard(data) {
+  // creating divs
   const cardContainer = document.querySelector('.results')
   const card = document.createElement('div')
   const innerCard = document.createElement('div')
   const frontCard = document.createElement('div')
   const backCard = document.createElement('div')
+  // assigning class names
   card.setAttribute('class', 'card')
   innerCard.setAttribute('class', 'inner-card')
   frontCard.setAttribute('class', 'front-card')
   backCard.setAttribute('class', 'back-card')
+
   const cocktailName = `<h5 class="name">${data.drinks[0].strDrink}</h5>`
   const cocktailImage = `<img src="${data.drinks[0].strDrinkThumb}" crossorigin="anonymous" alt="cocktail" class="image"/>`
   let cocktailData = `
@@ -48,7 +53,7 @@ function cocktailCard(data) {
   <p class="back instruction">${data.drinks[0].strInstructions}</p>
   <p class="back glassware">${data.drinks[0].strGlass}</p>
   `
-  
+  // appending to DOM
   card.innerHTML = cocktailName
   frontCard.insertAdjacentHTML('beforeend', cocktailImage)
   backCard.insertAdjacentHTML('beforeend', cocktailData)
@@ -57,44 +62,22 @@ function cocktailCard(data) {
   innerCard.append(backCard)
   cardContainer.appendChild(card)
 
+  // removing undefined strings
 
+  const cardBacks = document.querySelector('.back-card')
+  console.log('is cardBack', cardBacks)
+  console.log('is child of cardBack', cardBacks.children)
+  const cardBack = cardBacks.children
+  console.log(cardBack[1])
 
-  // const emptyValue = document.querySelectorAll('div > p')
-  // emptyValue.forEach(item => {
-  //   const backCard = document.querySelector('.back-card')
-  //   console.log(backCard)
-  //   while (backCard.length > 0) {
-  //     if (item.innerText.includes('undefined')) {
-  //       backCard.removeChild(backCard.lastElementChild)
-  //       }
-  //     }
-  //   })
+  for (let i = 0; i < cardBack.length; i++) {
+    console.log(cardBack[i])
+    if (cardBack[i].innerHTML.includes('undefined undefined')) {
+      cardBack[i].remove()
+    }
+  }
 }
-
-
-
-
-
-// const emptyValue = document.querySelectorAll('.back ing-msr')
-// console.log(emptyValue)
-// emptyValue.forEach((el) => {
-//   console.log(el)
-//   // if (emptyValue.textContent === 'undefined undefined') {
-//   //   emptyValue.remove()
-//   // }
-// })
-// console.log(emptyValue)
-// if (emptyValue.textContent === 'undefined undefined') {
-//   emptyValue.remove()
-// }
-
-// const ducks = document.querySelectorAll("div")
-//   ducks.forEach((duck) => {
-//     duck.addEventListener("click", shot)
-//   })
-
-
-  
+  // addEventListener to take in search input value 
 const search = document.querySelector('form')
 search.addEventListener('submit', (e) => {
   e.preventDefault()
@@ -104,6 +87,7 @@ search.addEventListener('submit', (e) => {
   document.querySelector('#cts-name').value = ""
 })
 
+// removeCard
 function removeCard() {
   const results = document.querySelector('.results')
   while(results.childElementCount > 3) {
