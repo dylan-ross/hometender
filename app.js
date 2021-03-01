@@ -8,13 +8,13 @@ async function getCocktailData(cocktail) {
   try {
     let response = await axios.get(cocktailUrl)
     let data = response.data
-    // const removeEmptyOrNull = (obj) => {
-    //   Object.keys(obj).forEach(k =>
-    //     (obj[k] && typeof obj[k] === 'object') && removeEmptyOrNull(obj[k]) || 
-    //     (!obj[k] && obj[k] !== undefined) && delete obj[k])
-    //   return obj
-    // }
-    // const data = removeEmptyOrNull(data)
+    const removeEmptyOrNull = (obj) => {
+      Object.keys(obj).forEach(k =>
+        (obj[k] && typeof obj[k] === 'object') && removeEmptyOrNull(obj[k]) || 
+        (!obj[k] && obj[k] !== undefined) && delete obj[k])
+      return obj
+    }
+    data = removeEmptyOrNull(data)
     cocktailCard(data)
     return response
   } catch (err) {
@@ -63,18 +63,23 @@ function cocktailCard(data) {
   <p class="back instruction">${data.drinks[0].strInstructions}</p>
   <p class="back glassware">${data.drinks[0].strGlass}</p>
   `
+
   frontCard.innerHTML = cocktailImage
   backCard.innerHTML = cocktailData
 
-  if (cocktailData.innerHTML !== `<p class="back ing-msr">null null</p>`) {
-    backCard.innerHTML = cocktailData
-    // document.querySelector('.back ing-msr').remove()
-  } 
+
+  // if (cocktailData.innerHTML !== `<p class="back ing-msr">null null</p>`) {
+  //   backCard.innerHTML = cocktailData
+  //   // document.querySelector('.back ing-msr').remove()
+  // } 
   
   card.appendChild(innerCard)
   innerCard.appendChild(frontCard)
   innerCard.append(backCard)
   cardContainer.appendChild(card)
+  // if (document.querySelector("p").innerText == ('undefined undefined') {
+  //   document.querySelector("p").remove()
+  // }
 }
 
 const search = document.querySelector('form')
