@@ -61,6 +61,7 @@ function cocktailCard(data) {
   innerCard.appendChild(frontCard)
   innerCard.append(backCard)
   cardContainer.appendChild(card)
+}
 
 
   // addEventListener to take in search input value 
