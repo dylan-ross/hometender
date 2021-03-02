@@ -2,12 +2,12 @@ async function getCocktailData(cocktail) {
   const cocktailUrl = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${cocktail}`
   try {
     let response = await axios.get(cocktailUrl)
-    let data = response.data
-    const removeEmptyOrNull = (obj) => {
-      Object.keys(obj).forEach(k =>
-        (obj[k] && typeof obj[k] === 'object') && removeEmptyOrNull(obj[k]) || 
-        (!obj[k] && obj[k] !== undefined) && delete obj[k])
-      return obj
+    let data = response.data.drinks[0]
+    const removeEmptyOrNull = (data) => {
+      Object.keys(data).forEach(k =>
+        (data[k] && typeof data[k] === 'object') && removeEmptyOrNull(data[k]) || 
+        (!data[k] && data[k] !== undefined) && delete data[k])
+      return data
     }
     data = removeEmptyOrNull(data)
     cocktailCard(data)
@@ -31,29 +31,84 @@ function cocktailCard(data) {
   innerCard.setAttribute('class', 'inner-card')
   frontCard.setAttribute('class', 'front-card')
   backCard.setAttribute('class', 'back-card')
+  const cocktailName = `<h5 class="name">${data.strDrink}</h5>`
+  const cocktailImage = `<img src="${data.strDrinkThumb}" crossorigin="anonymous" alt="cocktail" class="image"/>`
+  console.log(cocktailImage, cocktailName)
+  // let cocktailData = []
+  // function parsedData(data) {
+  //   Object.keys(data).forEach(k => {
+  //     !data[k] ?? cocktailData.push(data[k])
+  //   })
+  //   return cocktailData
+  // }
 
-  const cocktailName = `<h5 class="name">${data.drinks[0].strDrink}</h5>`
-  const cocktailImage = `<img src="${data.drinks[0].strDrinkThumb}" crossorigin="anonymous" alt="cocktail" class="image"/>`
-  let cocktailData = `
-  <p class="back ing-msr">${data.drinks[0].strMeasure1} ${data.drinks[0].strIngredient1} </p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure2} ${data.drinks[0].strIngredient2}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure3} ${data.drinks[0].strIngredient3}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure4} ${data.drinks[0].strIngredient4}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure5} ${data.drinks[0].strIngredient5}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure6} ${data.drinks[0].strIngredient6}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure7} ${data.drinks[0].strIngredient7}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure8} ${data.drinks[0].strIngredient8}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure9} ${data.drinks[0].strIngredient9}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure10} ${data.drinks[0].strIngredient10}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure11} ${data.drinks[0].strIngredient11}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure12} ${data.drinks[0].strIngredient12}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure13} ${data.drinks[0].strIngredient13}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure14} ${data.drinks[0].strIngredient14}</p>
-  <p class="back ing-msr">${data.drinks[0].strMeasure15} ${data.drinks[0].strIngredient15}</p>
-  <p class="back instruction">${data.drinks[0].strInstructions}</p>
-  <p class="back glassware">${data.drinks[0].strGlass}</p>
+  // cocktailData = parsedData(cocktailData)
+  // console.log(cocktailData)
+
+  let cocktailData =
+    `
+  <p class="back ing-msr">${data.strMeasure1} ${data.strIngredient1} </p>
+  <p class="back ing-msr">${data.strMeasure2} ${data.strIngredient2}</p>
+  <p class="back ing-msr">${data.strMeasure3} ${data.strIngredient3}</p>
+  <p class="back ing-msr">${data.strMeasure4} ${data.strIngredient4}</p>
+  <p class="back ing-msr">${data.strMeasure5} ${data.strIngredient5}</p>
+  <p class="back ing-msr">${data.strMeasure6} ${data.strIngredient6}</p>
+  <p class="back ing-msr">${data.strMeasure7} ${data.strIngredient7}</p>
+  <p class="back ing-msr">${data.strMeasure8} ${data.strIngredient8}</p>
+  <p class="back ing-msr">${data.strMeasure9} ${data.strIngredient9}</p>
+  <p class="back ing-msr">${data.strMeasure10} ${data.strIngredient10}</p>
+  <p class="back ing-msr">${data.strMeasure11} ${data.strIngredient11}</p>
+  <p class="back ing-msr">${data.strMeasure12} ${data.strIngredient12}</p>
+  <p class="back ing-msr">${data.strMeasure13} ${data.strIngredient13}</p>
+  <p class="back ing-msr">${data.strMeasure14} ${data.strIngredient14}</p>
+  <p class="back ing-msr">${data.strMeasure15} ${data.strIngredient15}</p>
+  <p class="back instruction">${data.strInstructions}</p>
+  <p class="back glassware">${data.strGlass}</p>
   `
   // appending to DOM
+
+   
+  // function removeEmptyOrNull(obj)  {
+  //     Object.keys(obj).forEach(k =>
+  //       (obj[k] && typeof obj[k] === 'object') && removeEmptyOrNull(obj[k]) || 
+  //       (!obj[k] && obj[k] !== undefined) && delete obj[k])
+  //     return obj
+  //   }
+  // cocktailData = removeEmptyOrNull(cocktailData)
+  
+ 
+  // const cardBack = backCard.children
+  // console.log(cardBack)
+
+   
+  // function removeEmptyOrNull(obj)  {
+  //   Object.keys(obj).forEach(k =>
+  //     (obj[k] && typeof obj[k] === 'object') && removeEmptyOrNull(obj[k]) || 
+  //     (!obj[k] && obj[k] !== undefined) && delete obj[k])
+  //   return console.log(obj.innerHTML)
+  // }
+  // cocktailData = removeEmptyOrNull(cardBack)
+  
+
+
+
+  const cardBack = backCard.children
+  console.log(cardBack)
+  // cardBack.children ?? delete cardBack.children
+  // cardBack.innerText ?? backCard.removeChild()
+
+
+
+  // for (let i = 0; i < cardBack.length; i++) {
+  //   cardBack[i]
+  //   if (cardBack[i].innerHTML.includes('undefined')) {
+  //   console.log(cardBack[i].remove())
+  //   return console.log(cardBack[i])
+  //   // return  backCard.insertAdjacentHTML('beforeend', cocktailData)
+  //   } 
+  // } 
+
+  
   card.innerHTML = cocktailName
   frontCard.insertAdjacentHTML('beforeend', cocktailImage)
   backCard.insertAdjacentHTML('beforeend', cocktailData)
@@ -61,7 +116,25 @@ function cocktailCard(data) {
   innerCard.appendChild(frontCard)
   innerCard.append(backCard)
   cardContainer.appendChild(card)
+
+
+  function removeEmptyOrNull(obj) {
+    Object.keys(obj).forEach(k => 
+      (obj[k] && typeof obj[k] === 'object') && removeEmptyOrNull(obj[k]) ||
+      (!obj[k] && obj[k] !== undefined) && delete obj[k])
+    
+      return obj.innerHTML
+    }
+  
+    cocktailData = removeEmptyOrNull(cardBack)
+    // console.log(cocktailData)
+  
+  
 }
+  // backCard.insertAdjacentHTML('beforeend', cocktailData)
+
+
+
 
 
   // addEventListener to take in search input value 
@@ -84,7 +157,25 @@ function removeCard() {
 
 
   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 // citing https://www.itsolutionstuff.com/post/how-to-remove-empty-and-null-values-from-json-object-in-jqueryexample.html
 
