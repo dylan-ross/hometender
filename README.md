@@ -4,6 +4,8 @@
 
 Hometender
 
+https://dylan-ross.github.io/hometender/
+
 ## Project Description
 Search for a cocktail by name. Compare up to 3 cocktails at a time. Search results are images that when interacted with will reveal recipe and glassware. Additional features include a search by ingredient form that will result in a list of all cocktails with that ingredient. Cocktail names in that list will link to image/recipe reveal.
 ## API and Data Sample
@@ -93,6 +95,6 @@ https://lucid.app/publicSegments/view/a03272a2-ca25-4f6b-9aef-53205414c4b1/image
 
 ## Code Snippet
 
-
+<p class="back ing-msr">${data.strMeasure3 ?? ""} ${data.strIngredient3 ?? ""}</p>
 
 ## Change Log
